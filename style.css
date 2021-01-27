@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.hover-effect{
+    width: 800px;
+    border: 1px solid #000;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px;
+}
+.hover-effect .similar{
+    display: inline-block;
+    background: orange;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: .5s;
+}
+.hover-effect .div1{
+    transform: translate(0);
+}
+.hover-effect .div1:hover{
+    transform: translate(-10px, 50px);
+}
+.hover-effect .div2{
+    transform: rotate(0);
+}
+.hover-effect .div2:hover{
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+.hover-effect .div3{
+    transform: skew(0);
+}
+.hover-effect .div3:hover{
+    transform: skew(30deg); 
+}
+.hover-effect .div4{
+    transform: scale(1);
+}
+.hover-effect .div4:hover{
+    transform: scale(1.2);
+}
+
+.box{
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+    border: 1px solid red;
+    padding: 32px;
+
+}
+.box img{
+    max-width: 100%;
+    cursor: pointer;
+    transition: .5s;
+}
+.box img:hover{
+    transform: scale(1.2) rotate(360deg);
+}
